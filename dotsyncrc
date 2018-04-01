@@ -19,7 +19,9 @@
 dotsyncrc
 gitconfig
 mc/ini:.config/mc/ini
+oh-hy-zsh/custom/ingwar.zsh-theme:.oh-hy-zsh/custom/ingwar.zsh
 vimrc
+zshrc
 [endfiles]
 
 ## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
