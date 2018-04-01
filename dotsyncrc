@@ -17,6 +17,7 @@
 #
 [files]
 dotsyncrc
+vimrc
 [endfiles]
 
 ## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
