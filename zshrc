@@ -18,4 +18,4 @@ plugins=(git django mercurial pip python screen compleat  zsh-syntax-highlightin
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/home/ingwar/local/bin:/home/ingwar/.gem/ruby/1.8/bin:/home/ingwar/.cabal-sandbox/bin:~/bin
+export PATH=$PATH:~/local/bin:~/bin
