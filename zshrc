@@ -17,11 +17,5 @@ plugins=(git django mercurial pip python screen compleat  zsh-syntax-highlightin
 
 source $ZSH/oh-my-zsh.sh
 
-export GCC_COLORS="error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01"
-
 # Customize to your needs...
 export PATH=$PATH:/home/ingwar/local/bin:/home/ingwar/.gem/ruby/1.8/bin:/home/ingwar/.cabal-sandbox/bin:~/bin
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-#export SDKMAN_DIR="/home/ingwar/.sdkman"
-#[[ -s "/home/ingwar/.sdkman/bin/sdkman-init.sh" ]] && source "/home/ingwar/.sdkman/bin/sdkman-init.sh"
-
