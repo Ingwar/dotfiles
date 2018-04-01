@@ -1,0 +1,5 @@
+[user]
+	name = Igor Korsunov
+	email = elquendi@yandex.ru
+[core]
+	excludesfile = /home/ingwar/.config/global_gitignore
