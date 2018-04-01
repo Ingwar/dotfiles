@@ -19,7 +19,7 @@
 dotsyncrc
 gitconfig
 mc/ini:.config/mc/ini
-oh-hy-zsh/custom/ingwar.zsh-theme:.oh-hy-zsh/custom/ingwar.zsh
+oh-my-zsh/custom/ingwar.zsh-theme:.oh-my-zsh/custom/ingwar.zsh-theme
 vimrc
 zshrc
 [endfiles]
