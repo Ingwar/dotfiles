@@ -24,6 +24,7 @@ mc/ini:.config/mc/ini
 nethackrc
 oh-my-zsh/custom/ingwar.zsh-theme:.oh-my-zsh/custom/ingwar.zsh-theme
 profile
+selected_editor
 vimrc
 zshrc
 [endfiles]
