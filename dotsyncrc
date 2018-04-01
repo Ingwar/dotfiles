@@ -17,6 +17,7 @@
 #
 [files]
 dotsyncrc
+mc/ini:.config/mc/ini
 vimrc
 [endfiles]
 
