@@ -17,6 +17,8 @@
 #
 [files]
 dotsyncrc
+bash/bashrc
+bash/bash_logout
 gitconfig
 mc/ini:.config/mc/ini
 nethackrc
