@@ -1,21 +1,33 @@
-# Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+### Antigen config ###
+source /usr/share/zsh-antigen/antigen.zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="ingwar"
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle command-not-found
+antigen bundle compleat
+antigen bundle git
+antigen bundle pip
+antigen bundle python
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Load the theme.
+antigen theme ~/.antigen/bundles/local/themes ingwar
+
+# Tell Antigen that you're done.
+antigen apply
+
+### End of Antigen config ###
+
+### Oh-my-zsh config ###
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git django mercurial pip python screen compleat  zsh-syntax-highlighting command-not-found)
-
-source $ZSH/oh-my-zsh.sh
+### End of oh-my-zsh config ###
 
 # Customize to your needs...
 export PATH=$PATH:~/local/bin:~/bin
