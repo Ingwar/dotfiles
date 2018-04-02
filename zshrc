@@ -15,12 +15,13 @@ antigen bundle python
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme ~/.antigen/bundles/local/themes ingwar
+antigen theme bhilburn/powerlevel9k powerlevel9k
 
 # Tell Antigen that you're done.
 antigen apply
 
 ### End of Antigen config ###
+
 
 ### Oh-my-zsh config ###
 
@@ -28,6 +29,33 @@ antigen apply
 COMPLETION_WAITING_DOTS="true"
 
 ### End of oh-my-zsh config ###
+
+
+### Powerlevel9k theme config ###
+
+# Left and right prompt segments
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv context dir dir_writable vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time root_indicator background_jobs history time)
+
+# Set default user for the context segment (it won't be displayed when the user matches default user and we are not in SSH session)
+DEFAULT_USER=ingwar
+
+# Colors for the context segment
+POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="green"
+
+# Colors for the current directory segment
+POWERLEVEL9K_DIR_HOME_BACKGROUND='042'
+POWERLEVEL9K_DIR_HOME_FOREGROUND='black'
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='042'
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND='black'
+POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='yellow'
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='black'
+
+# Colors for the virtualenv segment
+POWERLEVEL9K_VIRTUALENV_FOREGROUND='white'
+
+### End of Powerlevel9k config ###
+
 
 ### Miscellaneous settings ###
 
