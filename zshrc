@@ -29,5 +29,10 @@ COMPLETION_WAITING_DOTS="true"
 
 ### End of oh-my-zsh config ###
 
-# Customize to your needs...
+### Miscellaneous settings ###
+
+# Set user-level $PATH to include local directories
 export PATH=$PATH:~/local/bin:~/bin
+
+# Change path to the default history file
+HISTFILE=$HOME/.history
