@@ -22,6 +22,9 @@ bash/bash_logout
 gitconfig
 mc/ini:.config/mc/ini
 mpv/mpv.conf:.config/mpv/mpv.conf
+mpv/scripts/mpv_thumbnail_script_client_osc.lua:.config/mpv/scripts/mpv_thumbnail_script_client_osc.lua
+mpv/scripts/mpv_thumbnail_script_server.lua:.config/mpv/scripts/mpv_thumbnail_script_server.lua
+mpv/lua-settings/mpv_thumbnail_script.conf:.config/mpv/lua-settings/mpv_thumbnail_script.conf
 nethackrc
 profile
 selected_editor
