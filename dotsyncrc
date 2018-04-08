@@ -21,6 +21,7 @@ bash/bashrc
 bash/bash_logout
 gitconfig
 mc/ini:.config/mc/ini
+mpv/mpv.conf:.config/mpv/mpv.conf
 nethackrc
 profile
 selected_editor
